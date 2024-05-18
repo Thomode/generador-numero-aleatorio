@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+  color: #333;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 10px;
+
+}
+
+
+.read-the-docs {
+  color: #888;
+}
+
+.card {
+  margin: 0 auto;
+  width: 500px;
+  padding: 2em 2em 1.2em 2em;
+  border: none;
+  color: #fff;
+  text-align: center;
+}
+
+.card:hover , .contenedor-grafico:hover, .tabla:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-label {
+  color: #444;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-bottom: 5px;
+  font-size: 15px;
+}
+
+.btn-generar {
+  font-size: 0.8rem;
+  padding: 10px 15px;
+  margin-top: 20px;
+  margin-left: auto;
+  border: none;
+  color: #fff;
+  border-radius: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  display: block;
+  width: auto;
+  background-color: #BCD7AA;
+}
+
+.btn-generar:hover {
+  background-color: #97B682;
+}
+
+.form-control, .form-select {
+  width: 100%;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #f6f6f6;
+  border: none;
+  font-size: 0.9rem;
+  padding: 10px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  text-align: center;
+}
+
+.form-control:hover, .form-select:hover {
+  background-color: #f0f0f0;
+}
+
+.form-control[type="number"]::-webkit-inner-spin-button,
+.form-control[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
